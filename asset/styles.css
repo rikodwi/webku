@@ -1,23 +1,37 @@
+body {
+    background: blueviolet;
+}
 .wrapper {
-    background: #3d5afe;
 }
 .container {
     width: 1200px;
     margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: blue;
 }
 .sidebar {
-    width: 1200px;
+    width: 400px;
     height: 600px;
-    background: blueviolet;
     float: left;
-
 }
 .content {
     width: 800px;
-    height: 600px;
-    background: #3d5afe;
+    height: 600;
     float: right;
+    position: relative;
 }
 .clear {
     clear: both;
+}
+#logo  {
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+#logo img {
+    max-width: 100%;
+    height: auto;
+
 }
